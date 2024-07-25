@@ -101,6 +101,41 @@ gsap.from(".orange img",{
     }
 })
 
+gsap.from(".athelete-content .model",{
+    // transform:"translateX(-199.9%)",
+    x:-1500,
+    // y:-500,
+    // rotate:-360,
+    duration:2,
+    scrollTrigger:{
+        trigger:".athelete-content .model",
+        scroller:"body",
+        start:"top 100%",
+        end:"top 30%" ,
+        // markers:true,
+        // end:"+=1000",
+        scrub:2,
+        // pin:true
+    }
+})
+
+gsap.from(".left .title",{
+    // transform:"translateX(-199.9%)",
+    x:1500,
+    // y:-500,
+    // rotate:-360,
+    duration:2,
+    scrollTrigger:{
+        trigger:".left .title",
+        scroller:"body",
+        start:"top 100%",
+        end:"top 30%" ,
+        // markers:true,
+        // end:"+=1000",
+        scrub:2,
+        // pin:true
+    }
+})
 
 /*=============================ARSALAN===========================*/
 
