@@ -37,6 +37,70 @@ btns.forEach((btn,i)=>{
     });
 });
 
+gsap.from(".energy-page .orange",{
+    // transform:"translateX(-199.9%)",
+    x:-800,
+    duration:1,
+    scrollTrigger:{
+        trigger:".energy-page .orange",
+        scroller:"body",
+        start:"top 100%",
+        end:"top 20 %" ,
+        // markers:true,
+        // end:"+=1000",
+        scrub:2,
+        // pin:true
+    }
+})
+gsap.from(".energy-page .pineapple",{
+    // transform:"translateX(-199.9%)",
+    x:1000,
+    duration:1,
+    scrollTrigger:{
+        trigger:".energy-page .pineapple",
+        scroller:"body",
+        start:"top 100%",
+        end:"top 30 %" ,
+        // markers:true,
+        // end:"+=1000",
+        scrub:2,
+        // pin:true
+    }
+})
+
+gsap.from(".pineapple img",{
+    // transform:"translateX(-199.9%)",
+    x:1000,
+    rotate:360,
+    duration:2,
+    scrollTrigger:{
+        trigger:".pineapple img",
+        scroller:"body",
+        start:"top 100%",
+        end:"top 30 %" ,
+        // markers:true,
+        // end:"+=1000",
+        scrub:2,
+        // pin:true
+    }
+})
+gsap.from(".orange img",{
+    // transform:"translateX(-199.9%)",
+    x:-800,
+    rotate:-360,
+    duration:2,
+    scrollTrigger:{
+        trigger:".orange img",
+        scroller:"body",
+        start:"top 100%",
+        end:"top 30 %" ,
+        // markers:true,
+        // end:"+=1000",
+        scrub:2,
+        // pin:true
+    }
+})
+
 
 /*=============================ARSALAN===========================*/
 
